@@ -1,0 +1,29 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+#ToDoList{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 10px 0px;
+}
+
+#TodoInput{
+    border:none;
+    outline: none;
+    width: 200px;
+    text-align: center;
+    border-bottom: 2px solid #8A2BE2;
+}
+#icons{
+    font-size: 30px;
+    color: #8A2BE2;
+}
+#icons:hover{
+    color:mediumspringgreen;
+}
+.showtheList{
+    padding: 0px 0px 0px 40px;
+    color: #8A2BE2;
+    text-transform: capitalize;
+}

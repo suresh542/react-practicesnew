@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <p id="showHere">
+
+        </p>
+    </div>
+     <script>
+        const allDataHere = [
+            {
+            Id: 0, sName: "suresh", lName: "kumar", degree : "B.E."
+            },
+            {
+                Id: 0, sName: "murali", lName: "owner", degree : "B.sc."
+            },
+            {
+                Id: 0, sName: "Gowtham", lName: "kumar", degree : "B.D."
+            },
+        ]
+        const showData = allDataHere.map((currentValue)=>{
+            return `My Name is ${currentValue.sName}, this is my degree ${currentValue.degree} <br> `;
+        })
+        console.log(showData)
+        document.getElementById("showHere").innerHTML = showData;
+     </script>
+</body>
+</html>
